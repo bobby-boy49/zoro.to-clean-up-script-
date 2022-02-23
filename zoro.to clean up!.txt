@@ -10,13 +10,13 @@
 // ==/UserScript==
 
 
-//-- remove share icon
+//-- removed share icon
 jQuery('.share-icon').remove()
 
 
-//-- share text remove
+//-- share text removed
 jQuery('.share-buttons-block').remove()
 
 
-//-- manga reader banner remove
+//-- manga reader banner removed
 jQuery('.mba-block').remove()
