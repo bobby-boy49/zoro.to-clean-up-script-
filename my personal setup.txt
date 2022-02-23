@@ -40,3 +40,7 @@ jQuery('i').removeClass('fa-telegram-plane')
 jQuery('i').removeClass('fa-reddit-alien')
 
 jQuery('i').removeClass('fa-twitter')
+
+jQuery('div').removeClass('zrg-list')
+
+jQuery('div').removeClass('footer-joingroup')
