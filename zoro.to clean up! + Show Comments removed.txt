@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         zoro.to clean up!
+// @name         zoro.to clean up! + Show Comments removed
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
