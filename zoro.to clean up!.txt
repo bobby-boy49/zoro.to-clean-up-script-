@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         zoro.to clean up!
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        *://zoro.to/*
+// @run-at       document-end
+// @grant        none
+// ==/UserScript==
+
+
+//-- remove share icon
+jQuery('.share-icon').remove()
+
+
+//-- share text remove
+jQuery('.share-buttons-block').remove()
+
+
+//-- manga reader banner remove
+jQuery('.mba-block').remove()
