@@ -10,6 +10,10 @@
 // ==/UserScript==
 
 
+//-- for the users!
+jQuery(document).prop('title', 'Zoro Free Anime Streaming + script')
+
+
 //-- removed share icon
 jQuery('.share-icon').remove()
 
