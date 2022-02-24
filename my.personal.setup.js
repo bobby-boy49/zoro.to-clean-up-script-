@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        *://zoro.to/*
-// @icon         https://zoro.to/favicon-16x16.png
+// @icon         https://zoro.to/images/touch-icon-192x192.png
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
