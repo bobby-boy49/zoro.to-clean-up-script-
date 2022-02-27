@@ -10,6 +10,8 @@
 // @grant        none
 // ==/UserScript==
 
+//-- DON'T INSTALL FOR REGULAR USE!
+
 //-- This is my repository --> https://github.com/bobby-boy49/zoro.to-clean-up-script-
 
 //-- for the users!
