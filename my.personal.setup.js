@@ -31,6 +31,10 @@ jQuery('.mba-block').remove()
 jQuery('.display-toggle').remove()
 
 
+//-- removed share text at the bottom
+jQuery('.top').remove()
+
+
 //-- removed social
 jQuery('a').removeClass('zr-social-button dc-btn')
 
