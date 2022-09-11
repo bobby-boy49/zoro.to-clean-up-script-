@@ -2,7 +2,7 @@
 // @name         zoro.to clean up!
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  removing dumb shit.
 // @author       You
 // @match        *://zoro.to/*
 // @icon         https://zoro.to/images/touch-icon-192x192.png
