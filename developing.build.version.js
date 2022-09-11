@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  developer version
-// @author       You
+// @author       bobby_boy49
 // @match        *://zoro.to/*
 // @icon         https://zoro.to/images/touch-icon-192x192.png
 // @run-at       document-end
