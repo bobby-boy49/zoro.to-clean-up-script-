@@ -55,15 +55,12 @@ jQuery('span').removeClass('ami-click')
 //-- removed number of comments
 jQuery('a').removeClass('dt-comment')
 
-
 jQuery('i').removeClass('fa-comment')
 
 //-- I tried!
 jQuery('.text').detach('wombo')
 
-
 jQuery('.number').empty()
-
 
 jQuery('.number').removeClass()
 
