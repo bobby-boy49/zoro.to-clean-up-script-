@@ -57,6 +57,7 @@ jQuery('a').removeClass('dt-comment')
 
 jQuery('i').removeClass('fa-comment')
 
+
 //-- I tried!
 jQuery('.text').detach('wombo')
 
