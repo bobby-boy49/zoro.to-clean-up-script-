@@ -38,6 +38,20 @@ jQuery('.display-toggle').remove()
 jQuery('.top').remove()
 
 
+//-- removed the "read the manga version" icon under the art / beside.
+jQuery('a').removeClass('add-manga mb-0 get-mangas')
+
+jQuery('div').removeClass('d-flex align-items-center')
+
+jQuery('div').removeClass('add-manga-icon')
+
+jQuery('div').removeClass('manga-icon')
+
+jQuery('div').removeClass('add-manga-inner')
+
+jQuery('span').removeClass('ami-click')
+
+
 //-- removed number of comments
 jQuery('a').removeClass('dt-comment')
 
