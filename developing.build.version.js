@@ -2,7 +2,7 @@
 // @name         zoro.to clean up! + Show Comments removed
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  testing version
+// @description  developer version
 // @author       You
 // @match        *://zoro.to/*
 // @icon         https://zoro.to/images/touch-icon-192x192.png
