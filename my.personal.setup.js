@@ -1,51 +1,60 @@
 // ==UserScript==
 // @name         zoro.to clean up! + Show Comments removed
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  removing dumb shit.
 // @author       bobby_boy49
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match        *://zoro.to/*
 // @icon         https://zoro.to/images/touch-icon-192x192.png
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
+/*globals $*/
 
 //-- for the users!
-jQuery(document).prop('title', 'Zoro Free Anime Streaming + script!')
+$(document).prop('title', 'Zoro Free Anime Streaming + script!')
 
+//-- replace PP
+
+var old_url = "https://img.zorores.com/_r/100x100/100/avatar/dragon_ball/av-db-01.jpeg"
+var new_url = "https://ia802606.us.archive.org/18/items/cleaning-my-profile-picture/1.%20Original.jpg"
+$(document).ready(function(){
+        $("[src='"+old_url+"']").attr("src", new_url);
+});
 
 //-- removed share icon
-jQuery('.share-icon').remove()
+$('.share-icon').remove()
 
 
 //-- share text removed
-jQuery('.share-buttons-block').remove()
+$('.share-buttons-block').remove()
 
 
 //-- manga reader banner removed
-jQuery('.mba-block').remove()
+$('.mba-block').remove()
 
 
 //-- Show Comments removed
-jQuery('.display-toggle').remove()
+$('.display-toggle').remove()
 
 
 //-- removed share text at the bottom
-jQuery('.top').remove()
+$('.top').remove()
 
 
 //-- removed social
-jQuery('a').removeClass('zr-social-button dc-btn')
+$('a').removeClass('zr-social-button dc-btn')
 
-jQuery('i').removeClass('fab fa-discord')
+$('i').removeClass('fab fa-discord')
 
-jQuery('i').removeClass('fa-telegram-plane')
+$('i').removeClass('fa-telegram-plane')
 
-jQuery('i').removeClass('fa-reddit-alien')
+$('i').removeClass('fa-reddit-alien')
 
-jQuery('i').removeClass('fa-twitter')
+$('i').removeClass('fa-twitter')
 
-jQuery('div').removeClass('zrg-list')
+$('div').removeClass('zrg-list')
 
-jQuery('div').removeClass('footer-joingroup')
+$('div').removeClass('footer-joingroup')
