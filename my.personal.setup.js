@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         zoro.to clean up! + Show Comments removed
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  removing dumb shit.
 // @author       bobby_boy49
 // @require      https://zoro.to/js/watch.min.js
