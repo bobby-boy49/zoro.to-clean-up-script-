@@ -16,13 +16,6 @@
 //-- for the users!
 $(document).prop('title', 'Zoro Free Anime Streaming + script!')
 
-//-- replace PP
-
-var old_url = "https://img.zorores.com/_r/100x100/100/avatar/dragon_ball/av-db-01.jpeg"
-var new_url = "https://ia802606.us.archive.org/18/items/cleaning-my-profile-picture/1.%20Original.jpg"
-$(document).ready(function(){
-        $("[src='"+old_url+"']").attr("src", new_url);
-});
 
 //-- removed share icon
 $('.share-icon').remove()
