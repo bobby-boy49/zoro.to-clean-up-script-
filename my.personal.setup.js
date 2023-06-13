@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  removing dumb shit.
 // @author       bobby_boy49
-// @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
+// @require      https://zoro.to/js/watch.min.js
 // @match        *://zoro.to/*
 // @icon         https://zoro.to/images/touch-icon-192x192.png
 // @run-at       document-end
