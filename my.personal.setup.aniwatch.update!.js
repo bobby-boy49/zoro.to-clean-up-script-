@@ -37,6 +37,10 @@ $('.display-toggle').remove()
 $('.top').remove()
 
 
+//-- fuck this shit!
+$('a').remove('.dt-comment')
+
+
 //-- removed social
 $('a').removeClass('zr-social-button dc-btn')
 
