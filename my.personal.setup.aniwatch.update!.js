@@ -25,6 +25,9 @@ $('.share-icon').remove()
 $('.share-buttons-block').remove()
 
 
+//-- removed the download app banner for mobile users
+$('div.intro-app').remove();
+
 //-- manga reader banner removed
 $('.mba-block').remove()
 
