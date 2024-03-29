@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         aniwatch.to clean up! + Show Comments removed
-// @namespace    http://tampermonkey.net/
+// @name         hianime.to clean up! + Show Comments removed
+// @namespace    https://hianime.to
 // @version      0.2
 // @description  removing dumb shit.
 // @author       bobby_boy49
-// @require      https://aniwatch.to/js/watch.min.js
-// @match        *://aniwatch.to/*
-// @icon         https://aniwatch.to/images/favicon.png
+// @require      https://hianime.to/js/watch.min.js
+// @match        *://hianime.to/*
+// @icon         https://hianime.to/images/favicon.png
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
